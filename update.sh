@@ -1,4 +1,6 @@
-f test -e data.rt
+#!/bin/sh
+
+if test -e data.rt
 then
 	rm data.rt
 	python addata.py
